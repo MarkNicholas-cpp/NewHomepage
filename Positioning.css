@@ -1,0 +1,26 @@
+.parent{
+    display: flex;
+    background-color: black;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+ .child{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(24, 183, 125);
+    border-radius:5px;
+    margin: 10px;
+}
+.fixed{
+    position: fixed;
+}
+.parent-relative{
+    position: relative;
+    background-color: black;
+}
+.parent-nonrelative{
+    background-color: black;
+}
+.child-absolute{
+    position: absolute;
+}
